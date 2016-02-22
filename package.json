@@ -1,0 +1,22 @@
+{
+  "name": "node-mongo-test",
+  "version": "0.0.1",
+  "description": "A way to quickly test a mongodb connection",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamStonehouse/node-mongo-test.git"
+  },
+  "author": "Sam Stonehouse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamStonehouse/node-mongo-test/issues"
+  },
+  "homepage": "https://github.com/SamStonehouse/node-mongo-test#readme",
+  "dependencies": {
+    "mongodb": "^2.1.7"
+  }
+}
