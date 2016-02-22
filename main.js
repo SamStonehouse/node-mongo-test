@@ -4,10 +4,12 @@ const MongoClient = require('mongodb').MongoClient
 const format = require('util').format;
 const config = require('./config.json');
 
-let connectionString = `mongodb://${config.host}:${config.port}/${config.database}`
+const port = config.port || '27017';
+
+let connectionString = `mongodb://${config.host}:${port}/${config.database}`
 
 if (config.username && config.password) {
-	connectionString = `mongodb://${config.username}:${config.password}@${config.host}:${config.port}/${config.database}`
+	connectionString = `mongodb://${config.username}:${config.password}@${config.host}:${port}/${config.database}`
 }
 
 MongoClient.connect(connectionString, function (err, db) {
