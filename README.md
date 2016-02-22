@@ -12,3 +12,7 @@ Fill in config.json with your relevent information
 - `port` will default to 27017
 - `username` and `password` are optional
 - `db` is optional
+
+Then run
+
+    node main.js
