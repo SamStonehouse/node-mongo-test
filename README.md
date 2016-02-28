@@ -6,7 +6,7 @@ A way to quickly test a mongodb connection in node.js
 
 Copy `config.json.dist` to a new file named `config.json`
 
-Fill in config.json with your relevent information
+Fill in config.json with your relevant information
 
 - `host` is required
 - `port` will default to 27017
